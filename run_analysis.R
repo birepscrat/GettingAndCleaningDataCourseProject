@@ -64,4 +64,4 @@ ourdata <- ourdata %>%
   summarize_each(funs(mean))
 
 ## Output our summarized data
-write.table(ourdata,file="../Analyzed_Data.txt")
+write.table(ourdata,file="../Analyzed_Data.txt",row.names = FALSE)
