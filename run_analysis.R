@@ -1,11 +1,8 @@
 library(dplyr)
 ## Get the data, but only if we haven't already!
-if (!dir.exists(".data")) {dir.create(".data")}
-setwd(".data")
 if (!file.exists("dataset.zip")) {
 download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",
               "dataset.zip")}
-
 ## Unzip our data, but again we only want to do this if we haven't done it before:
 if (!dir.exists("UCI HAR Dataset")) {unzip("dataset.zip")}
 
