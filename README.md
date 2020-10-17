@@ -10,9 +10,7 @@ from [UCI's HAR dataset](http://archive.ics.uci.edu/ml/datasets/Human+Activity+R
 It was created as part of Johns Hopkins University's 10 course professional
 certificate in Data Science.
 
-If you already have the dataset create a directory called ".data" and place your
-"UCI HAR Dataset" directory there, then set the cwd to the parent of .data 
-and run the script. 
+If you already have the dataset place your "UCI HAR Dataset" directory in the project root and then run the script. 
 
 If you don't preload the data be aware the dataset (roughly ~60mb)
 will be downloaded the first time you run the script.
